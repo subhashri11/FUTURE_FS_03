@@ -10,9 +10,7 @@ the business's actual Google Business posts, reviews, address, and contact detai
 
 ## 🔗 Live Demo
 
-Open `index.html` in any browser — no installation, no build step, no server required.
-
-To publish it publicly, see [Deployment](#-deployment) below.
+https://subhashri11.github.io/FUTURE_FS_03/
 
 ---
 
@@ -66,45 +64,6 @@ HTML file.
 
 ---
 
-## 💻 Running Locally
-
-**Option A — just open it:**
-Double-click `index.html`. It will open in your default browser and work fully offline
-except for Google Fonts and the embedded map, which need internet access.
-
-**Option B — local server (recommended for development):**
-```bash
-cd jaize-website
-python3 -m http.server 8000
-```
-Then visit `http://localhost:8000` in your browser.
-
----
-
-## 🚀 Deployment
-
-The easiest free options, in order of setup speed:
-
-### 1. GitHub Pages
-```bash
-git init
-git add .
-git commit -m "Initial commit — Jaize website"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-Then in the repo: **Settings → Pages → Deploy from branch → main → / (root)**.
-Live in about a minute at `https://<username>.github.io/<repo-name>/`.
-
-### 2. Netlify / Vercel
-Drag the `jaize-website` folder onto [netlify.com/drop](https://app.netlify.com/drop) (or
-the Vercel dashboard) for an instant live URL — no git required.
-
-### 3. Custom domain
-The store already owns `jaize.grexa.site`. Once hosted on GitHub Pages/Netlify/Vercel, that
-domain can be pointed at the new site via a CNAME record.
-
 ---
 
 ## 🎨 Design Notes
@@ -127,9 +86,3 @@ template:
 - [ ] Add a simple, owner-editable "New Arrivals" section
 - [ ] Connect `jaize.grexa.site` to the deployed site
 - [ ] Optional: WhatsApp catalog integration for direct ordering
-
----
-
-## 📄 License
-
-Built as a project demo for Jaize. Free to reuse and adapt for the business.
